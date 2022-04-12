@@ -12,6 +12,7 @@ https://github.com/facily-tech/go-scaffold
 
 * Hot reload;
 * Verificação de código com Go lint;
+* Fácil utilização do Debug;
 * Makefile para execução de comandos complexos de forma básica;
 * Biblioteca para geração de mock's;
 * Biblioteca para criação de documentação Swagger;
