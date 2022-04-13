@@ -23,11 +23,12 @@ https://github.com/facily-tech/go-scaffold
 * Docker versão >= 20.10
 * Docker-compose >= 1.29 ou Compátivel com versão de compose 3.8 ([Verificar documentação para mais informações](https://docs.docker.com/compose/))
 * Plugin Remote-Container para VSCode
-* Golang versão >= 1.17
 
 ### **Como instalar dependencias?**
 
-1.  [**Instalação Docker para Ubuntu (compátivel com a distribuição Mint**](https://docs.docker.com/engine/install/ubuntu/)
+1.  [**Instalação Docker para Ubuntu (compátivel com a distribuição Mint)**](https://docs.docker.com/engine/install/ubuntu/) ou 
+[**Instalação Docker para distribuição Mint**](https://pt.linuxteaching.com/article/how_to_install_docker_on_linux_mint).
+
 Para verificar se a instalação ocorreu bem, execute: 
 
 ~~~docker
@@ -52,9 +53,9 @@ docker-compose version
 
 ## **Como utilizar?**
 - Abra o VSCode
-- Pressione Ctrl + Shift + P ou navegue até a palheta de comandos do VsCode e digite Remote-Containers
+- Pressione Ctrl + Shift + P ou navegue até a palheta de comandos do VSCode e digite Remote-Containers
 - Selecione a opção Open Folder in Container e selecione o workspace do Scaffold
 - O Remote-Containers tratará de baixar as imagens necessárias e fazer as devidas configurações de acordo com o docker-compose do scaffold (Isso pode demorar um pouco).
-- Após as devidas tratativas, a confirmação de que ocorreu tudo certo, será o terminal do VsCode da seguinte maneira: 
+- Após as devidas tratativas, a confirmação de que ocorreu tudo certo, será o terminal do VSCode da seguinte maneira: 
 
  ![Container](container.png)
