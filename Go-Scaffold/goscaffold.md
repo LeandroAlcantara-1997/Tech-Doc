@@ -26,8 +26,8 @@ https://github.com/facily-tech/go-scaffold
 
 ### **Como instalar dependencias?**
 
-1.  [**Instalação Docker para Ubuntu (compátivel com a distribuição Mint)**](https://docs.docker.com/engine/install/ubuntu/) ou 
-[**Instalação Docker para distribuição Mint**](https://pt.linuxteaching.com/article/how_to_install_docker_on_linux_mint).
+1.  [**Instalação Docker para Ubuntu**](https://docs.docker.com/engine/install/ubuntu/) ou 
+[**Instalação Docker para distribuição Mint**](../Docker/docker.md).
 
 Para verificar se a instalação ocorreu bem, execute: 
 
