@@ -27,7 +27,7 @@ https://github.com/facily-tech/go-scaffold
 ### **Como instalar dependencias?**
 
 1.  [**Instalação Docker para Ubuntu**](https://docs.docker.com/engine/install/ubuntu/) ou 
-[**Instalação Docker para distribuição Mint**](../Docker/docker.md).
+[**Instalação Docker para distribuição Mint**](../../Docker/Instalacao.md).
 
 Para verificar se a instalação ocorreu bem, execute: 
 
@@ -53,6 +53,7 @@ docker-compose version
 
 ## **Como utilizar?**
 - Abra o VSCode
+- Copie o conteudo do arquivo application.env.sample para um novo arquivo chamado application.env
 - Pressione Ctrl + Shift + P ou navegue até a palheta de comandos do VSCode e digite Remote-Containers
 - Selecione a opção Open Folder in Container e selecione o workspace do Scaffold
 - O Remote-Containers tratará de baixar as imagens necessárias e fazer as devidas configurações de acordo com o docker-compose do scaffold (Isso pode demorar um pouco).

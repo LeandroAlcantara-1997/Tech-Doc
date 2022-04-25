@@ -1,43 +1,13 @@
-# **Instalação Docker**
+# Docker
 
-## **Distribuição Mint**
+## O que é o Docker?
 
-~~~mint
-sudo apt-get update
-~~~
+Docker é uma ferramenta de conteirinização de processos.
 
-~~~mint
-sudo apt-get upgrade
-~~~
+## Como utilizar no meu projeto?
 
-~~~mint
-sudo apt install docker.io
-~~~
-
-~~~mint
-sudo systemctl start docker
-~~~
-
-~~~mint
-sudo systemctl enable docker
-~~~
-
-## Após execução destes comandos, basta reiniciar a sessão do usuário logado e executar o seguinte comando para verificar se a instalação ocorreu bem:
-
-~~~mint
-docker -v
-~~~
-
-## Criação de um grupo Docker com permissão de comandos:
-
-~~~mint
-sudo groupadd docker
-~~~
-
-~~~mint
-sudo usermod -aG docker $USER
-~~~
-
-~~~mint
-newgrp docker
-~~~
+Há três possibilidades de utilizar o docker em seu projeto, sendo elas:
+- Terminal:
+    Crie sua imagem de acordo com suas necessidades mas por meio de comandos no terminal.
+- Dockerfile: 
+    Um arquivo no qual você possui opções 
